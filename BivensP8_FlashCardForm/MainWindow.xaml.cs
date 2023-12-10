@@ -157,7 +157,7 @@ namespace BivensP8_FlashCardForm
             txbManagerInstructions.Text = "Card has been removed.";
         }
 
-        private void lbCards_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
+        private void lbCards_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             Card tempCard = (Card)lbCards.SelectedItem;
 
