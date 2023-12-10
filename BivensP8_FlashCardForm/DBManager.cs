@@ -1,4 +1,10 @@
-﻿using System;
+﻿// Joshua Bivens
+// jbivens1@cnm.edu
+// BivensP8 - Flash Card Form
+
+// DBManager.cs
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;

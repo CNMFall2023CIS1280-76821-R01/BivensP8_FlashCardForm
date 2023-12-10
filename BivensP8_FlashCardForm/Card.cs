@@ -1,4 +1,10 @@
-﻿using System;
+﻿// Joshua Bivens
+// jbivens1@cnm.edu
+// BivensP8 - Flash Card Form
+
+// Card.cs
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
