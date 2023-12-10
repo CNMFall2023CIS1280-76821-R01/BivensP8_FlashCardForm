@@ -8,11 +8,6 @@ namespace BivensP8_FlashCardForm
 {
     internal class Card
     {
-        #region Fields
-        private int numRight = 0;
-        private int numWrong = 0;
-        #endregion
-
         #region Properties
         public int CardID { get; set; }
         public string Title { get; set; }

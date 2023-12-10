@@ -48,6 +48,7 @@ namespace BivensP8_FlashCardForm
             currentCard = cards[index];
             txbTitle.Text = currentCard.Title;
             txbQuestion.Text = currentCard.Question;
+            lbCardID.Content = currentCard.CardID;
         }
         
         private void DisplayCardQuestion()
@@ -95,6 +96,7 @@ namespace BivensP8_FlashCardForm
             lbCards.Items.Refresh();
         }
 
+        // Manager Tab
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
             Card tempCard = new Card(
@@ -125,6 +127,7 @@ namespace BivensP8_FlashCardForm
             newCard.Title = txbAddTitle.Text;
             newCard.Question = txbAddQuestion.Text;
             newCard.Answer = txbAddAnswer.Text;
+            newCard.CardID = (int)lbManagerCardID.Content;
 
             manager.Update(newCard);
 
@@ -135,6 +138,7 @@ namespace BivensP8_FlashCardForm
             txbAddTitle.Text = "";
             txbAddQuestion.Text = "";
             txbAddAnswer.Text = "";
+            lbManagerCardID.Content = "";
 
             txbManagerInstructions.Text = "Card Updated";
         }
@@ -160,6 +164,7 @@ namespace BivensP8_FlashCardForm
             txbAddTitle.Text = tempCard.Title;
             txbAddQuestion.Text = tempCard.Question;
             txbAddAnswer.Text = tempCard.Answer;
+            lbManagerCardID.Content = tempCard.CardID;
 
             txbManagerInstructions.Text = "Card Ready";
         }
