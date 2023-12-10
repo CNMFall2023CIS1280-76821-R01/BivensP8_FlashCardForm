@@ -35,7 +35,7 @@
                         <ColumnDefinition Width="560*"/>
                     </Grid.ColumnDefinitions>
                     <TextBox x:Name="txbAddTitle" HorizontalAlignment="Left" Margin="66,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" Grid.Column="2"/>
-                    <Label x:Name="lbManagerCardID" Content="Label" HorizontalAlignment="Left" Margin="14,33,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <Label x:Name="lbManagerCardID" Content="" HorizontalAlignment="Left" Margin="14,33,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2"/>
                     <TextBox x:Name="txbAddQuestion" HorizontalAlignment="Left" Margin="16,101,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242" Height="89" Grid.Column="1" Grid.ColumnSpan="2"/>
                     <Label Content="Question" HorizontalAlignment="Left" Margin="16,75,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2"/>
                     <TextBox x:Name="txbAddAnswer" HorizontalAlignment="Left" Margin="16,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242" Height="91" Grid.Column="1" Grid.ColumnSpan="2"/>

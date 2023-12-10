@@ -50,8 +50,13 @@ namespace BivensP8_FlashCardForm
 
         public override string ToString()
         {
-            string output = $"{Title}: {NumRight} answers correct/{NumWrong} answers incorrect\n" +
-                $"A ratio of {RightWrongRatio}";
+            // Call calc to make sure the ratio is up to date
+            Calc();
+
+            // Return a string with the card's title, number of right answers, number of wrong answers, and the ratio
+            string output = $"{Title}:\n" + 
+                $"{NumRight} answers correct/{NumWrong} answers incorrect\n" +
+                $"A ratio of {RightWrongRatio}\n";
             return output;
         }
         #endregion
