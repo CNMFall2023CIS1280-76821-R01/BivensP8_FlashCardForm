@@ -34,18 +34,18 @@
                         <ColumnDefinition Width="23*"/>
                         <ColumnDefinition Width="560*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBox x:Name="txbAddTitle" HorizontalAlignment="Left" Margin="101,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" Grid.Column="2"/>
-                    <Label x:Name="lbManagerCardID" Content="Label" HorizontalAlignment="Left" Margin="26,33,0,0" VerticalAlignment="Top" Grid.Column="2"/>
-                    <TextBox x:Name="txbAddQuestion" HorizontalAlignment="Left" Margin="28,101,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242" Height="89" Grid.Column="2"/>
-                    <Label Content="Question" HorizontalAlignment="Left" Margin="28,75,0,0" VerticalAlignment="Top" Grid.Column="2"/>
-                    <TextBox x:Name="txbAddAnswer" HorizontalAlignment="Left" Margin="28,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242" Height="91" Grid.Column="2"/>
-                    <TextBox x:Name="txbManagerInstructions" HorizontalAlignment="Left" Margin="27,398,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="468" Height="77" Grid.Column="2"/>
-                    <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="28,360,0,0" VerticalAlignment="Top" Width="62" Grid.Column="2" Click="btnAdd_Click"/>
-                    <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="112,360,0,0" VerticalAlignment="Top" Width="68" Grid.Column="2" Click="btnUpdate_Click"/>
-                    <Button x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Margin="202,360,0,0" VerticalAlignment="Top" Width="68" Grid.Column="2" Click="btnRemove_Click"/>
-                    <Label Content="Answer" HorizontalAlignment="Left" Margin="28,212,0,0" VerticalAlignment="Top" Grid.Column="2"/>
-                    <ListBox x:Name="lbCards" Grid.Column="2" Margin="311,101,40,207" MouseDoubleClick="lbCards_MouseDoubleClick"/>
-                    <Label Grid.Column="2" Content="Title" HorizontalAlignment="Left" Margin="97,11,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txbAddTitle" HorizontalAlignment="Left" Margin="66,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" Grid.Column="2"/>
+                    <Label x:Name="lbManagerCardID" Content="Label" HorizontalAlignment="Left" Margin="14,33,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txbAddQuestion" HorizontalAlignment="Left" Margin="16,101,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242" Height="89" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <Label Content="Question" HorizontalAlignment="Left" Margin="16,75,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txbAddAnswer" HorizontalAlignment="Left" Margin="16,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242" Height="91" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txbManagerInstructions" HorizontalAlignment="Left" Margin="17,398,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="526" Height="77" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="17,360,0,0" VerticalAlignment="Top" Width="62" Grid.Column="1" Click="btnAdd_Click" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="79,360,0,0" VerticalAlignment="Top" Width="68" Grid.Column="2" Click="btnUpdate_Click"/>
+                    <Button x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Margin="169,360,0,0" VerticalAlignment="Top" Width="68" Grid.Column="2" Click="btnRemove_Click"/>
+                    <Label Content="Answer" HorizontalAlignment="Left" Margin="16,212,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <ListBox x:Name="lbCards" Grid.Column="2" Margin="261,101,40,207" MouseDoubleClick="lbCards_MouseDoubleClick"/>
+                    <Label Grid.Column="2" Content="Title" HorizontalAlignment="Left" Margin="62,11,0,0" VerticalAlignment="Top"/>
                     <Label Grid.Column="2" Content="Cards List (Double Click to Edit)" HorizontalAlignment="Left" Margin="306,73,0,0" VerticalAlignment="Top"/>
                 </Grid>
             </TabItem>

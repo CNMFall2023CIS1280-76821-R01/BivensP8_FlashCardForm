@@ -44,12 +44,14 @@ namespace BivensP8_FlashCardForm
         #region Methods
         public void Calc()
         {
-            // What is Calc() supposed to do?
+            // Calculate the ratio of right to wrong answers and store it in RightWrongRatio
+            RightWrongRatio = (float)NumRight / (NumRight + NumWrong);
         }
 
         public override string ToString()
         {
-            string output = $"{Title}: {NumRight} answers correct/{NumWrong} answers incorrect";
+            string output = $"{Title}: {NumRight} answers correct/{NumWrong} answers incorrect\n" +
+                $"A ratio of {RightWrongRatio}";
             return output;
         }
         #endregion
