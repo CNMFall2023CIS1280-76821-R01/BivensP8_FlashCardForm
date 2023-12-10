@@ -44,7 +44,7 @@ namespace BivensP8_FlashCardForm
         #region Methods
         public void Calc()
         {
-
+            // What is Calc() supposed to do?
         }
 
         public override string ToString()
