@@ -2,6 +2,13 @@
 // jbivens1@cnm.edu
 // BivensP8 - Flash Card Form
 
+//Comments 15/15
+//Meeting Requirements 40/40
+//Presentation of Output 10/10
+//Elegance of Code 25/25
+//Design/Pseudocode 10/10
+//Grade 100/100
+
 // MainWindow.xaml.cs
 
 using System;
