@@ -3,11 +3,13 @@
 // BivensP8 - Flash Card Form
 
 //Comments 15/15
-//Meeting Requirements 40/40
+//Meeting Requirements 35/40
 //Presentation of Output 10/10
-//Elegance of Code 25/25
+//Elegance of Code 22/25
 //Design/Pseudocode 10/10
-//Grade 100/100
+//Grade 92/100
+//TODO: The connectionstring in App.config should point to generic data locatio |Datalocation| otherwise program will not work
+//as it does not have access to your location -3pts
 
 // MainWindow.xaml.cs
 

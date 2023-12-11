@@ -15,6 +15,8 @@ namespace BivensP8_FlashCardForm
     internal class Card
     {
         #region Properties
+
+        //TODO: Missing fields numRight and numWrong which should back NumRight and NumWrong -5pts
         public int CardID { get; set; }
         public string Title { get; set; }
         public string Question { get; set; }
