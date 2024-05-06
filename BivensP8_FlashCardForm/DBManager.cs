@@ -51,7 +51,6 @@ namespace BivensP8_FlashCardForm
                     // Add the card to the list
                     cards.Add(card);
                 }
-
             }
         }
 
@@ -60,7 +59,6 @@ namespace BivensP8_FlashCardForm
             // Create a connection to the database
             using (SqlConnection connection = new SqlConnection(connStr))
             {
-            
                 // Open the connection
                 connection.Open();
 
